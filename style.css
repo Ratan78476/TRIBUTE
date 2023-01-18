@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: rgb(46, 141, 173);
+    text-decoration-color: none;
+}
+.main {
+height: 100vh;
+width: 100vw;
+background-color: whitesmoke;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    width: 100vw;
+    height: 8vh;
+    color:rgb(57, 0, 0);
+    background-aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.content {
+    height: 80vh;
+    width: 100vw;
+    background-color:  #0f9dbd;
+    display: flex;
+
+}
+
+.left {
+height: 100%;
+width: 30vw;
+background-color: rgb(234, 248, 248);
+display: flex;
+box-sizing: initial;
+
+}
+
+.right {
+    height: 40vh;
+    width: 70vw;
+    background-color: rgb(255, 255, 255);
+    display: flexbox;
+    background-color: rgb(68, 186, 194);
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right:25px;
+}
+.nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    color: rgb(18, 2, 37);
+}
+
+
+.left img{
+    height: 100%;
+    width: 100%;
+    border-width: 5px;
+}
+
+.name{
+    font-size: 28px;
+    color:rgb(255, 255, 255);
+}
+.tribute {
+    font-size: 18px;
+    color: white;
+}
+
+.tribute_content {
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+
+}
+
+.ratan {
+    color: rgb(255, 247, 0);
+    font-size: 37px;
+    
+}
+
+.first {
+    color: rgb(252, 254, 251);
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.paragraph {
+    color: bisque;
+    justify-content: center;
+     align-items: center;
+     font-size: large;
+     margin-left: 110px;
+     margin-top: 40px;
+     gap: 15px; font-weight: 700;
+}
